@@ -1,0 +1,45 @@
+.CoreList-container {
+    padding-top: 20px;
+  }
+  
+  .CoreList-button {
+    margin-top: 20px;
+    background-color: #1e8678;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .CoreList-button:hover {
+    background-color: #145c55;
+  }
+  
+  .CoreList-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .CoreList-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .CoreList-cardContent {
+    padding: 16px;
+  }
+  
+  .CoreList-cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .CoreList-cardDetails {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #6c757d;
+  }
